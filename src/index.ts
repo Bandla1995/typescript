@@ -200,21 +200,51 @@
 
 // extending type aliases
 
-type Person = {
-	id: string | number;
-	firstName: string;
-};
+// type Person = {
+// 	id: string | number;
+// 	firstName: string;
+// };
 
-type User = Person & {
-	email: string;
-};
+// type User = Person & {
+// 	email: string;
+// };
 
-const personOne = {
-	id: 1,
-	firstName: 'mario',
-};
-const personTwo: User = {
-	id: '2',
-	firstName: 'luigi',
-	email: 'benji@bebakho.com',
-};
+// const personOne = {
+// 	id: 1,
+// 	firstName: 'mario',
+// };
+// const personTwo: User = {
+// 	id: '2',
+// 	firstName: 'luigi',
+// 	email: 'benji@bebakho.com',
+// };
+//will continue the lesson , this is for coding
+
+// function lengthOfLongestSubstring(s: string): number {
+//   const lastIndex = new Map<string, number>();
+//   let left = 0;
+//   let maxLen = 0;
+
+//   for (let right = 0; right < s.length; right++) {
+//     const ch = s[right];
+
+//     // If we've seen this character and it's inside the current window
+//     if (lastIndex.has(ch) && lastIndex.get(ch)! >= left) {
+//       left = lastIndex.get(ch)! + 1;
+//     }
+
+//     // Update the last seen index
+//     lastIndex.set(ch, right);
+
+//     // Update max length
+//     maxLen = Math.max(maxLen, right - left + 1);
+//   }
+
+//   return maxLen;
+// }
+
+// // Example tests
+// console.log(lengthOfLongestSubstring("abcabcbb")); // 3 ("abc")
+// console.log(lengthOfLongestSubstring("bbbbb"));    // 1 ("b")
+// console.log(lengthOfLongestSubstring("pwwkew"));   // 3 ("wke")
+// console.log(lengthOfLongestSubstring(""));         // 0
