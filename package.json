@@ -1,24 +1,5 @@
 {
-  "name": "typescript",
-  "version": "1.0.0",
-  "description": "Practicing my web development skills",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Bandla1995/typescript.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "module",
-  "bugs": {
-    "url": "https://github.com/Bandla1995/typescript/issues"
-  },
-  "homepage": "https://github.com/Bandla1995/typescript#readme",
   "devDependencies": {
-    "@types/node": "^24.10.1"
+    "parcel": "^2.16.1"
   }
 }
